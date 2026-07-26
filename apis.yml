@@ -1,8 +1,25 @@
 aid: digitalsurgery
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digitalsurgery.png
 name: digitalsurgery
-description: digitalsurgery is a company surfaced as a portfolio company of balderton-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Digital Surgery (originally Touch Surgery / Kinosis) is a London-based surgical
+  artificial intelligence company backed by Balderton Capital and acquired by Medtronic in 2020,
+  where it now operates as part of Medtronic's Covidien surgical business. It builds the Touch
+  Surgery ecosystem of surgical simulation and training tools and Touch Surgery Enterprise, an
+  AI-powered platform for recording, analyzing, and reviewing surgical video in the operating
+  room. The company does not publish a public developer program or API; digitalsurgery.com now
+  redirects to Medtronic's Digital Surgery product page. This profile remains a network stub
+  awaiting a real developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/digitalsurgery/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Surgery
+- Healthcare
+- Artificial Intelligence
+- Medical Devices
+- Surgical Video
+- Digital Health
+- Simulation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/digitalsurgery-domain-security.yml
 - type: Website
   url: https://digitalsurgery.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
