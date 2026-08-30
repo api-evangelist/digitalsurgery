@@ -57,6 +57,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/medtronic/
+  name: Medtronic
+  x-relationship: acquired
+  x-evidence: "Digital Surgery (originally Touch Surgery / Kinosis) is a London-based surgical artificial intelligence company backed by Balderton Capital and acquired by Medtronic in 2020, where it now operates as part of Medtronic's Covidien surgical bu"
 - type: DomainSecurity
   url: security/digitalsurgery-domain-security.yml
 - type: Website
